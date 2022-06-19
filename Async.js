@@ -8,5 +8,6 @@ async function myFn() {
     // and return value of that promise
     let value = await promise;
     console.log(value + "");
+    console.log("abc");
 }
 myFn();
